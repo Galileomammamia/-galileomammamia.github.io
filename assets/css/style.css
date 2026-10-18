@@ -277,6 +277,30 @@ h2 {
   gap: 24px;
 }
 
+/* Improve contrast for buttons inside the dark CTA box */
+.cta-box .btn-secondary,
+.cta-box .btn-outline {
+  background: rgba(255,255,255,0.06);
+  color: #ffffff;
+  border-color: rgba(255,255,255,0.16);
+}
+
+.cta-box .btn-outline {
+  background: transparent;
+  border-color: rgba(255,255,255,0.22);
+  color: #ffffff;
+}
+
+.cta-box .btn-secondary:hover,
+.cta-box .btn-outline:hover {
+  background: rgba(255,255,255,0.12);
+  color: #ffffff;
+}
+
+.cta-box .btn-primary {
+  box-shadow: 0 12px 24px rgba(215, 107, 77, 0.32);
+}
+
 .footer {
   padding: 24px 0 48px;
 }
